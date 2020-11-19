@@ -1,0 +1,12 @@
+{
+“applinkis”: {
+        “apps”: [],
+        “details”: [
+            {
+                “appID”: “A83HL2KEAE”,
+                “paths”: [“/dashboard/*”]
+            }
+        ]
+    }
+
+}
