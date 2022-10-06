@@ -4,22 +4,9 @@
 
 <body>
 <div class="page-container">
-    <input type="text" value="link to copy" id="inputField">
-    <button class="button" onclick="myFunction()">Copy text</button>
-    <a href="https://scd-links.herokuapp.com/products?ref=cashback"><button>Link Text</button></a>
-
+    <button class="button" onclick="myFunction()">Open App</button>
 <script>
 function myFunction() {
-  // Get the text field
-  var copyText = document.getElementById("inputField");
-
-  // Select the text field
-  copyText.select();
-  copyText.setSelectionRange(0, 99999); // For mobile devices
-
-  // Copy the text inside the text field
-  navigator.clipboard.writeText(copyText.value);
-  
   window.open("https://scd-links.herokuapp.com/products?ref=cashback")
 }
 </script>
