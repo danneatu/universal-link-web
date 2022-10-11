@@ -4,10 +4,14 @@
 
 <body>
 <div class="page-container">
-    <button class="button" onclick="myFunction()">Open App</button>
+    <button class="button" onclick="openProdApp()">Open PROD App</button>
+    <button class="button" onclick="openPrevApp()">Open PREVIEW App</button>
 <script>
-function myFunction() {
-  window.open("https://scd-links.herokuapp.com/products?ref=cashback")
+function openProdApp() {
+  window.open("https://scd-links.herokuapp.com/products-prod?ref=cashback")
+}
+function openPrevApp() {
+  window.open("https://scd-links.herokuapp.com/products-preview?ref=cashback")
 }
 </script>
 
