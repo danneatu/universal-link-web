@@ -3,16 +3,9 @@
         "apps": [],
         "details": [
             {
-                "appID": "M958L35LXK.ch.swisscard.mobile.preview",
-                  "paths": [
-                      "/products-preview/*"
-                  ]
-                  
-            },
-            {
                 "appID": "M958L35LXK.ch.swisscard.mobile",
                   "paths": [
-                      "/products-prod/*"
+                      "/products/*"
                   ]
             }
         ]
