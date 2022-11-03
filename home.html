@@ -8,11 +8,17 @@
     <a href="https://scd-links.herokuapp.com/products/products-prod.html">open app</a>
     <a href="https://scd-links.herokuapp.com/help/help.html">open help</a>
 
-    <button class="button" onclick="myFunction()">Open PROD App</button>
+
+    <button class="button" onclick="openProdApp()">Open PROD App</button>
+
+
+    <button onclick="window.location.href='https://scd-links.herokuapp.com/products/products-prod.html';">
+      Open app 2
+    </button></div>
 
 
 <script>
-function myFunction() {
+function openProdApp() {
   window.open("https://scd-links.herokuapp.com/products/products-prod.html")
   navigator.clipboard.writeText("copied text");
 }
