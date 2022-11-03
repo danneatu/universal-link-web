@@ -1,15 +1,14 @@
 {
     "applinks": {
-        "apps": [],
         "details": [
             {
-                "appID": "M958L35LXK.ch.swisscard.mobilexxx",
+                "appIDs": [ "M958L35LXK.ch.swisscard.mobile" ],
                 "components": [
                     {
-                            "/": "/products"
+                        "/": "/products"
                     }, 
                     {
-                        "/":"/about.html",
+                        "/": "/about.html",
                         "exclude": true
                     }
                 ]   
