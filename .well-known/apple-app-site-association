@@ -9,7 +9,7 @@
                             "/": "/products"
                     }, 
                     {
-                        "/":"/about",
+                        "/":"/about.html",
                         "exclude": true
                     }
                 ]   
