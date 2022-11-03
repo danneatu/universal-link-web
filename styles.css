@@ -25,6 +25,10 @@
     color: #fff;
   }
 
+  a {
+    font-size: 2.5rem;
+  }
+
   #inputField {
     font-size: 18pt;
     height: 42px;

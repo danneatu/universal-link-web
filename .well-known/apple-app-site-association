@@ -5,10 +5,10 @@
                 "appIDs": [ "M958L35LXK.ch.swisscard.mobile" ],
                 "components": [
                     {
-                        "/": "/products-prod"
+                        "/": "/products/*"
                     }, 
                     {
-                        "/": "/about.html",
+                        "/": "/about/*",
                         "exclude": true
                     }
                 ]   
