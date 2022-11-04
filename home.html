@@ -11,17 +11,24 @@
 
     <button class="button" onclick="openProdApp()">Open PROD App</button>
 
-
     <button onclick="window.location.href='https://scd-links.herokuapp.com/products/products-prod.html';">
       Open app 2
-    </button></div>
+    </button>
+  <!-- The text field -->
+<input type="text" value="Hello World" id="myInput">
+
+<!-- The button used to copy the text -->
+<button onclick="myFunction()">Copy text</button>
+  </div>
 
 
 <script>
+
 function openProdApp() {
-  window.open("https://scd-links.herokuapp.com/products/products-prod.html")
-  navigator.clipboard.writeText("copied text");
+  navigator.clipboard.writeText('test');
+  window.open("https://scd-links.herokuapp.com/products/products-prod")
 }
+
 </script>
 
 </body>
