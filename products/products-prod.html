@@ -3,9 +3,9 @@
     <link rel="stylesheet" href="../styles.css">
     <meta name="apple-itunes-app" content="app-id=1181860241, app-argument=https://scd-links.herokuapp.com/products/products-prod.html?productId=24">
 
-    <body>
+    <body onload = copyToClipboard()>
 
-      <div onload=copyToClipboard() class="page-container">
+      <div class="page-container">
           <p>In order to apply for a product you need to install the application first.</p>
 
             <button class="button" onclick="installApp()">Install App</button>
@@ -13,10 +13,15 @@
         
         <script>
          function copyToClipboard() {
-          navigator.clipboard.writeText('https://scd-links.herokuapp.com/products/products-prod.html?productId=24')
+          console.log("copy the url to clipboard")
+          // navigator.clipboard.writeText('https://scd-links.herokuapp.com/products/products-prod.html?productId=24')
+          navigator.clipboard.writeText("Clipboard API Test").then(
+    v => alert("Success"),
+    e => alert("Fail\n" + e));
          }
 
         function installApp() {
+          copyToClipboard()
           window.open("https://apps.apple.com/ch/app/swisscard/id1181860241")
         }
         
