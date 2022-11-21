@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
     <meta name="apple-itunes-app" content="app-id=1181860241, app-argument=https://scd-links.herokuapp.com/products/products-prod.html?productId=24">
 
     <body>
-        <div class="page-container">
+
+      <div onload=copyToClipboard() class="page-container">
+          <p>In order to apply for a product you need to install the application first.</p>
+
             <button class="button" onclick="installApp()">Install App</button>
-          </div>
+        </div>
         
         <script>
-        
+         function copyToClipboard() {
+          navigator.clipboard.writeText('https://scd-links.herokuapp.com/products/products-prod.html?productId=24')
+         }
+
         function installApp() {
-          navigator.clipboard.writeText('product code');
           window.open("https://apps.apple.com/ch/app/swisscard/id1181860241")
         }
         
