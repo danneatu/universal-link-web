@@ -1,2 +1,2 @@
-<!-- <?php include_once("home.html"); ?> -->
-<?php header('Location: /home.html'); ?>
+<!-- <?php include_once("/products/products-prod.html"); ?> -->
+<?php header('Location: /products/products-prod.html'); ?>

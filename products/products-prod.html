@@ -1,9 +1,22 @@
 <!DOCTYPE html>
 <html>
     <link rel="stylesheet" href="styles.css">
-    <meta name="apple-itunes-app" content="app-id=1181860241, app-argument=my.url.cashback">
+    <meta name="apple-itunes-app" content="app-id=1181860241, app-argument=https://scd-links.herokuapp.com/products/products-prod.html?productId=24">
 
-<body>
-<p>products-prod v4</p>
-</body>
+    <body>
+        <div class="page-container">
+            <button class="button" onclick="installApp()">Install App</button>
+          </div>
+        
+        <script>
+        
+        function installApp() {
+          navigator.clipboard.writeText('product code');
+          window.open("https://apps.apple.com/ch/app/swisscard/id1181860241")
+        }
+        
+        </script>
+        
+        </body>
+        </html>
 </html>
