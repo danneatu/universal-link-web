@@ -1,32 +1,27 @@
 <!DOCTYPE html>
 <html>
-    <link rel="stylesheet" href="../styles.css">
-    <meta name="apple-itunes-app" content="app-id=1181860241, app-argument=https://scd-links.herokuapp.com/products/products-prod.html?productId=24">
+<link rel="stylesheet" href="../styles.css">
+<meta name="apple-itunes-app"
+  content="app-id=1181860241, app-argument=https://scd-links.herokuapp.com/products/products-prod.html?productId=24">
 
-    <body onload = copyToClipboard()>
+<body>
 
-      <div class="page-container">
-          <p>In order to apply for a product you need to install the application first.</p>
+  <div class="page-container">
+    <p>In order to apply for a product you need to install the application first.</p>
+    <button class="button" onclick="installApp()">Install App</button>
+  </div>
 
-            <button class="button" onclick="installApp()">Install App</button>
-        </div>
-        
-        <script>
-         function copyToClipboard() {
-          console.log("copy the url to clipboard")
-          // navigator.clipboard.writeText('https://scd-links.herokuapp.com/products/products-prod.html?productId=24')
-          navigator.clipboard.writeText("Clipboard API Test").then(
-    v => alert("Success"),
-    e => alert("Fail\n" + e));
-         }
+  <script>
+    function copyToClipboard() {
+      console.log("copy the url to clipboard")
+      navigator.clipboard.writeText('https://scd-links.herokuapp.com/products/products-prod.html?productId=24')
+    }
+    function installApp() {
+      copyToClipboard()
+      window.open("https://apps.apple.com/ch/app/swisscard/id1181860241")
+    }
+  </script>
 
-        function installApp() {
-          copyToClipboard()
-          window.open("https://apps.apple.com/ch/app/swisscard/id1181860241")
-        }
-        
-        </script>
-        
-        </body>
-        </html>
+</body>
+
 </html>
