@@ -2,7 +2,7 @@
     "applinks": {
         "details": [
             {
-                "appIDs": [ "M958L35LXK.ch.swisscard.mobile", "ch.swisscard.mobile.preview" ],
+                "appIDs": [ "M958L35LXK.ch.swisscard.mobile", "M958L35LXK.ch.swisscard.mobile.preview" ],
                 "components": [
                     {
                         "/": "/products/*"
