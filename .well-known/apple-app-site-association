@@ -2,7 +2,33 @@
     "applinks": {
         "details": [
             {
+                "appIDs": [ "A83HL2KEAE.com.netcetera.swisscard.ent.preview" ],
+                "components": [
+                    {
+                        "/": "/products/*",
+                        "test": "/prod/*"
+                    }, 
+                    {
+                        "/": "/help/*",
+                        "exclude": true
+                    }
+                ]   
+            },
+            {
                 "appIDs": [ "M958L35LXK.ch.swisscard.mobile.preview" ],
+                "components": [
+                    {
+                        "/": "/products/*",
+                        "test": "/prod/*"
+                    }, 
+                    {
+                        "/": "/help/*",
+                        "exclude": true
+                    }
+                ]   
+            },
+            {
+                "appIDs": [ "A83HL2KEAE.com.netcetera.swisscard.ent.extra" ],
                 "components": [
                     {
                         "/": "/products/*",
